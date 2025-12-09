@@ -14,6 +14,8 @@ body{
     justify-content: center;
 }
 
+
+
 .logo{
     margin-bottom: -10%;
     text-align: center;
@@ -43,11 +45,35 @@ body{
     padding-bottom: 10px;
 }
 
+.button2{
+   margin: 5%;
+    font-family: "Reddit Sans";
+    font-weight: 300;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    background-color: transparent;
+    border-radius: 85px;
+    border: 2px solid #000000;
+    color: #000000;
+    font-size: 40px;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.button2:hover{
+    background: #AEEF0F;
+    color: #FF4500;
+    border: 2px solid #AEEF0F;
+}
+
 .button:hover{
     background: #AEEF0F;
     color: #FF4500;
     border: 2px solid #AEEF0F;
 }
+
 
 /* Animations */
 @keyframes slide-Left {
@@ -73,7 +99,7 @@ body{
     scale: 100% 1;
   }
 }
-
+/*
 .fade-in {
   animation: fadeIn ease 5s;
   -webkit-animation: fadeIn ease 5s;
@@ -125,7 +151,7 @@ body{
     opacity:1;
   }
 }
-
+*/
 @keyframes fadeInUp {
   0% {
     transform: translateY(50%);
