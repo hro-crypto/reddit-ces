@@ -31,7 +31,7 @@ body{
 .button{
     margin: 5%;
     font-family: "Reddit Sans";
-    font-weight: 300;
+    font-weight: bold;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
@@ -46,9 +46,9 @@ body{
 }
 
 .button2{
-   margin: 5%;
+   margin: 10%;
     font-family: "Reddit Sans";
-    font-weight: 300;
+    font-weight: bold;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
