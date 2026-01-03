@@ -1,97 +1,29 @@
 body{
     background: #FFFFFF;
 }
-#container{
-    border: 3px solid #AEEF0F;
-    position: relative;
-    display: flex;
+
+.container{
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90% ;
 }
 
-.align{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.box-right{
-    display: flex;
-    justify-content: flex-end;
-}
-.left{
-    width: 50%;
-    position: relative;
-    align-items: right;
-    justify-items: flex-start;
-    margin-left: 60%;
-    bottom: 10%;
-}
-.right{
-    width: 50%;
-    position: relative;
-    text-align: right;
-    align-items: flex-end;
-    justify-content: flex-end;
-    margin-left: -10%;
-}
-.logo{
-    margin-bottom: -10%;
-    text-align: right;
-}
-
-.parent{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-text{
-    font-family: "Reddit Sans";
-    font-weight: bold;
-    font-size: 60px;
-    fill: #1E1E1E;
-}
-.other-text{
-  font-size: 80px;
-  font-weight: 700;
-}
-.bold-text{
-    font-size: 65px;
-    font-weight: 800;
+.column{
+  column-count: 2;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: 5%;
 }
 .button{
-    font-family: "Reddit Sans";
-    font-weight: bold;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    background-color: transparent;
-    border-radius: 85px;
-    background: #FF4500;
-    border: 2px solid #FF4500;
-    color: #FFFFFF;
-    font-size: 50px;
-    padding: 55px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+  background: #FF4500;
 }
 
 .button2{
-   margin: 10%;
     font-family: "Reddit Sans";
-    font-weight: bold;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    background-color: transparent;
-    border-radius: 85px;
     background: #000;
-    border: 2px solid #000000;
+    border: 3px solid #000000;
     color: #ffffff;
-    font-size: 40px;
-    padding: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 .button2:hover{
@@ -104,24 +36,6 @@ text{
     background: #FF8864;
     color: #FFFFFF;
     border: 2px solid #FF8864;
-}
-
-.image-container{
-  display: flex;         /* Use flexbox layout */
-  justify-content: center; /* Centers the image horizontally */
-  align-items: center;   /* Centers the image vertically */
-  height: 100vh;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: -8%;
-  position: relative;
-  z-index: -2;
-}
-
-.image-container img{
-  position: relative;
-  max-width: 100%;
-  max-height: 100%;
 }
 
 /* Animations */
